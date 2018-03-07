@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Resume">
+    <meta name="author" content="keerthi vuggumudi">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>KeerthiVuggumudi Resume | Welcome</title>
+</head>
+<style>
+/*------------------------body section--------------*/
+    body
+    {
+    font:15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:100px;
+    background-image: url("graphpaper-image.jpeg");
+    opacity:0.7;
+    }
+    /*-----------------------Global----------------------*/
+    .container
+    {
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    }
+    .teal{
+background-color: #008073 !important;
+}
+.white-text {
+    color: #FFFFFF !important;
+}
+.brown
+{
+color: #795548 !important;
+}
+.black
+{
+color:#000!important;
+}
+.box
+{
+    width:auto;
+    padding: 30px 40px;
+    background:white;
+    line-height: 3.212rem;
+    margin: 1.98rem 0 1.198rem 0;
+    display: block;
+    box-shadow:3px 3px 3px grey;
+}
+img
+{
+width:100px;
+min-height:100px;
+margin-top:20px;
+display: inline;
+}
+.border-bottom
+{
+border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+
+    /*-----------------------Header-----------------------*/
+    header
+    {
+     background-image: url("");
+      background-repeat:no-repeat;
+     width:auto;
+
+     min-height:500px;
+}
+
+
+
+header #Quote
+{
+font-size:50px;
+color:#ffffff;
+text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+
+}
+ul
+{
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 190px;
+    background-color: white;
+    position: fixed;
+    left:0;
+    top:0;
+    height: 100%;
+    overflow: auto;
+    text-align:center;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.grey-box
+{
+background-color:rgb(245,245,245);
+border:0.5px solid rgb(245,245,245);
+padding:20px;
+}
+
+.button-collapse
+{
+width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+ul li .material-icons, ul li a {
+
+  vertical-align: middle;
+}
+li:hover {
+    background-color: #fafafa;
+    border-left: 3px solid;
+}
+a:link:
+{
+text-decoration:  none;
+}
+a:visited:
+{
+text-decoration:  none;
+}
+a:hover   {
+text-decoration:  none;
+}
+a:active  {
+text-decoration:  none;
+}
+
+/*------------------------About------------------------*/
+
+
+.aboutme{
+    font-size:38px;
+    margin-bottom: 60px;
+    margin-top: 0;
+    padding: 30px 40px;
+    text-transform: uppercase;
+    width:auto;
+    border-left:7px solid teal;
+    line-height: 3.212rem;
+    margin: 1.46rem 0 1.168rem 0;
+    display: block;
+    box-shadow:10px 10px 20px grey;
+
+}
+
+@media (max-width: 990px)
+{
+.aboutme
+{
+font-size:30px;
+}
+}
+
+.brown-text
+{
+border-left: 5px solid #795548;
+    color: #795548;
+    font-size: 27px;
+    font-weight: 400;
+    margin: 20px 0;
+    padding-left: 1.5rem;
+}
+@media (max-width: 600px)
+{
+.brown-text
+ {
+    font-size: 18px;
+    line-height: 200%;
+    margin: 30px 0 0;
+}
+}
+
+.text
+{
+    font-size:22px;
+    font-weight: 400;
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    color:black;
+    display: block;
+}
+@media (max-width:600px)
+{
+.text
+{
+font-size:14px;
+}
+}
+
+
+/*--------------------- Projects -------------------------*/
+.project-box
+{
+
+min-height:80px;
+}
+
+/*------------------------Skills ----------------------------*/
+#my-skills h4
+{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+#my-skills  img{
+width:70px;
+min-height:70px;
+}
+
+.container-1-box
+{
+display:flex;
+justify-content:space-between;
+text-align:center;
+color:black;
+}
+box-1
+{
+flex-basis:20%;
+}
+.container-5-box
+{
+display:flex;
+text-align:center;
+color:black;
+}
+.container-5-box > div
+{
+margin: 10px;
+  padding: 20px;
+}
+
+
+
+
+
+@media (max-width:800px)
+{
+.container-1-box,.container-5-box
+{
+width:100%;
+overflow: hidden;
+flex-wrap:wrap;
+
+}
+#my-skills  img{
+width:40px;
+min-height:40px;
+
+}
+}
+
+/*---------------------------- Awards ---------------------------------*/
+.awards-box
+{
+width: 50%;
+margin-left: 0;
+min-height:80px;
+}
+.award-bullets
+{
+border-left:5px solid #795548 ;
+
+}
+@media (max-width: 700px)
+{
+.awards-box
+{
+width: 100%;
+margin-left: 0;
+min-height:80px;
+}
+.award-bullets
+{
+border-left:3px solid #795548 ;
+
+}
+}
+/*------------------------------------Education--------------------------------------*/
+.masters-box
+{
+width: 50%;
+margin-left: 0;
+min-height:80px;
+float:left;
+}
+.education-box
+{
+display:block;
+}
+.bachlers-box
+{
+width: 40%;
+margin-left: 0;
+min-height:80px;
+float:left;
+position:relative;
+left:10%;
+
+}
+.masters-image
+{
+    position: relative;
+    right: 0px;
+    min-height:50px;
+
+}
+@media (max-width: 700px)
+{
+.education
+{
+width: 100%;
+margin-left: 0;
+min-height:80px;
+}
+}
+/*---------------------------contact-----------------------*/
+
+.contact-icon {
+
+    font-size:34px;
+
+    }
+
+    .email-style
+    {
+    color: #009688;
+    font-size:18px;
+
+    }
+
+
+    .label-box
+    {
+    width:50px;
+    height:30px;
+    background:black;
+    color:#fff;
+    font-size:10px;
+
+    }
+
+   .my-contact a:hover
+    {
+    border-bottom: 3px solid #009688;
+
+    }
+
+
+    .brown-circle
+    {
+    width: 55.5px;
+    height: 55.5px;
+    background-color: #795548 !important;
+        border-radius: 50%;
+        background-clip: padding-box;
+        position: relative;
+    cursor: pointer;
+
+    overflow: hidden;
+    user-select: none;
+
+    vertical-align: middle;
+    z-index: 1;
+    line-height: 56px;
+    color: #FFF;
+    text-align: center;
+
+
+
+    }
+
+
+
+
+/*----------footer----------------*/
+.footer
+{
+float:right;
+color:black;
+padding-top:40px;
+font-size:10px;
+}
+@media (max-width:600px)
+{
+.footer
+{
+float:none;
+width:100%;
+text-align:center;
+position:absolute;
+}
+}
+
+/*-----media Queries-----------*/
+@media (max-width: 990px)
+{
+body
+{
+float:none
+text-align:center;
+width:100%;
+margin:0;
+}
+ul
+{
+float:none;
+position:relative;
+}
+ h1
+{
+font-size: 22px;
+
+}
+}
+@media(max-width:768px)
+{
+header #showcase,.masters-box,.bachlers-box,.education-box,.footer
+{
+float:none;
+text-align:center;
+width:100%
+}
+
+
+.masters-image,bachlers-image
+{
+margin-left:auto;
+margin-right:auto;
+display:block;
+}
+}
+
+</style>
+<body>
+<!----------------------------HEADER SECTION -------------->
+<header>
+    <section class="container">
+        <!----------------------------Quote and nav section------------------>
+
+
+        <nav>
+            <ul class="side-nav-fixed">
+                <div class="grey-box">
+                    <h2 style="color: #008073 !important;">Keerthi<br>Vuggumudi<br></h2>
+                    <h5 style="color: #795548 !important;">Full Stack Developer</h5>
+                </div>
+
+                <li style="color:#008073 !important">
+                    <i class="material-icons">person</i>
+                    <a href="#about">About</a></li>
+
+                <li style="color:#00bcd4 !important;">
+                    <i class="material-icons">folder</i>
+                    <a href="#projects">Projects</a></li>
+                <li style=" color: #795548 !important;">
+                    <i class="material-icons">poll</i>
+                    <a href="#skills">Skills</a></li>
+                <li style="color: #9c27b0 !important;">
+                    <i class="material-icons">star</i>
+                    <a href="#awards">Awards</a></li>
+                <li style="color: #F44336 !important;">
+                    <i class="material-icons">school</i>
+                    <a href="#education">Education</a></li>
+                <li style="color: #ff9800 !important;">
+                    <i class="material-icons">email</i>
+                    <a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="showcase">
+            <div style="margin-left:5%;" id="Quote">
+
+                <h1 style="line-height: 150%;font-size:45px">I Want to <span class="teal">make things</span><br>that
+                    <span style="border-bottom: 5px solid #009688;
+"> make a difference.</span></h1>
+            </div>
+
+        </div>
+        </div>
+    </section>
+</header>
+<!--------------------------------About Section --------------------------->
+
+<section><a name="about">
+
+    <div class="container">
+        <p id="aboutme">
+        <h3 class=" teal white-text aboutme">About</h3>
+        <p class="brown-text">Mission-driven full stack developer with a passion for thoughtful UI design,
+            collaboration.</p>
+
+        </p>
+        <p class="text">
+            A 2017 computer science graduate of the Texas A&M University-Commerce interested in designing, developing
+            software with collaboration and commitment.
+            .As a full stack developer, I enjoy using my obsessive attention to detail, my unequivocal love for making
+            things, and my mission-driven work ethic to literally change the world. That's why I’m excited to make a big
+            impact at a high growth company.</p>
+    </div>
+    </div>
+</a>
+</section>
+
+<!-------------------------------------Projects section ------------------------>
+<section id="myprojects"><a name="projects">
+    <div class="container">
+        <div class="projects">
+            <h3 class="teal white-text aboutme">Academic Projects</h3>
+            <div class="box project-box">
+                <h2 class="brown">Stress Breaker</h2>
+                <p class="black">Designed and developed a desktop application that notifies the user to take breaks and performs user
+                    defined actions like plays soothing music etc. during the breaks. The application is written in Python
+                    using Tkinter and Pygame libraries. </p></div>
+
+            <div class="box project-box">
+                <h2 class="brown"> IMDB Analytics </h2>
+                <p class="black">Developed multiple scripts to extract various statistics from the IMDB dataset. Data processing is done
+                    using PySpark. The results are loaded into MySQL and visualized using JavaScript, HTML and CSS.
+                </p></div>
+            <div class="box project-box">
+                <h2 class="brown">Simple SMTP Server</h2>
+                <p class="black">Developed a self-contained simple SMTP server to aid developers during testing without having to install
+                    and configure a full-blown SMTP server. This application has a web interface made using Java Servlets,
+                    Derby database, Winstone web server and JQuery. </p></div>
+            <div class="box project-box">
+                <h2 class="brown">Blog Engine</h2>
+                <p class="black">Designed and developed a blog engine. The backend is done using Spring MVC web framework, Java. The front
+                    end is written in Angular. </p></div>
+        </div>
+    </div>
+</a>
+</section>
+<!-------------------------------------skills----------------------------------->
+
+<section id="my-skills">
+    <a name="skills">
+        <div class="container">
+            <h3 class=" teal white-text aboutme">Skills</h3>
+
+            <div class="box project-box">
+                <h4 class="brown">PROGRAMMING LANGUAGES</h4>
+                <div class="container-1">
+                    <div class="container-1-box">
+                        <div class="box-1">
+                            <img src="java-image.jpg">
+                            <h5>JAVA</h5>
+                        </div><!-----box1 div-------------->
+
+                        <div class="box-2">
+                            <img src="python-image.PNG">
+                            <h5>PYTHON</h5>
+                        </div><!-------box2 div---------->
+                        <div class="box-3">
+                            <img src="c.png">
+                            <h5>C</h5>
+                        </div><!---------box3 div---------->
+                        <div class="box-4">
+                            <img src="cpp.png">
+                            <h5>C++</h5>
+                        </div><!-------box4 div---------->
+                        <div class="box-5">
+                            <img src="html5.PNG">
+                            <h5>HTML</h5>
+                        </div><!-----box5 div--------->
+                        <div class="box-6">
+                            <img src="css3.jpg">
+                            <h5>CSS</h5>
+                        </div><!-----box6 div--------->
+                        <div class="box-7">
+                            <img src="javascript.jpg">
+                            <h5>JAVASCRIPT</h5>
+                        </div><!-----box7 div--------->
+
+                    </div><!--------container1-box--------->
+                </div><!-----container1 div ----------->
+
+            </div> <!-------box closing div----------->
+
+
+
+
+            <div class="box project-box">
+                <h4 class="brown">FRAMEWORKS</h4>
+                <div class="container-1">
+                    <div class="container-5-box">
+                        <div class="box-1">
+                            <img src="apachespark.png">
+                            <h5>APACHE SPARK</h5>
+                        </div><!-----box1 div-------------->
+
+                        <div class="box-2">
+                            <img src="spring.PNG">
+                            <h5>SPRING</h5>
+                        </div><!-------box2 div---------->
+                        <div class="box-3">
+                            <img src="angular.PNG">
+                            <h5>ANGULAR</h5>
+                        </div><!---------box3 div---------->
+                        <div class="box-4">
+                            <img src="junit.PNG">
+                            <h5>JUNIT</h5>
+                        </div><!-------box4 div---------->
+
+                    </div><!--------container1-box--------->
+                </div><!-----container1 div ----------->
+
+            </div> <!-------box closing div----------->
+
+
+
+            <div class="box project-box">
+                <h4 class="brown">TOOLS</h4>
+                <div class="container-1">
+                    <div class="container-1-box">
+                        <div>
+                            <img src="eclipse.png">
+                            <h5>ECLIPSE</h5>
+                        </div><!-----box1 div-------------->
+
+                        <div>
+                            <img src="pycharm.PNG">
+                            <h5>PYCHARM</h5>
+                        </div><!-------box2 div---------->
+                        <div>
+                            <img src="intellij.PNG">
+                            <h5>INTELLIJ IDEA</h5>
+                        </div><!---------box3 div---------->
+                        <div>
+                            <img src="git.PNG">
+                            <h5>GIT</h5>
+                        </div><!-------box4 div---------->
+                        <div>
+                            <img src="tomcat.PNG">
+                            <h5>TOMCAT</h5>
+                        </div><!-----box5 div--------->
+                         </div><!--------container1-box--------->
+                </div><!-----container1 div ----------->
+
+            </div> <!-------box closing div----------->
+
+
+
+            <div class="box project-box">
+                <h4 class="brown">DATABASES</h4>
+                <div class="container-1">
+                    <div class="container-1-box">
+                        <div class="box-1">
+                            <img src="mysql.png">
+                            <h5>MYSQL</h5>
+                        </div><!-----box1 div-------------->
+
+                    </div><!--------container1-box--------->
+                </div><!-----container1 div ----------->
+
+            </div> <!-------box closing div----------->
+
+
+
+            <div class="box project-box">
+                <h4 class="brown">OPERATING SYSTEMS</h4>
+                <div class="container-5">
+                    <div class="container-5-box">
+                        <div >
+                            <img src="windows.png">
+                            <h5>WINDOWS</h5>
+                        </div><!-----box1 div-------------->
+
+                        <div>
+                            <img src="linux.jpg">
+                            <h5>LINUX</h5>
+                        </div><!-------box2 div---------->
+                    </div><!--------container1-box--------->
+                </div><!-----container1 div ----------->
+
+            </div> <!-------box closing div----------->
+
+
+
+
+
+
+
+
+
+
+        </div><!---------container div------------>
+    </a>
+</section>
+
+<!--------------Awards----------------------------->
+<section id="my-awards"><a name="awards">
+    <div class="container">
+        <h3 class=" teal white-text aboutme">Awards</h3>
+        <div class="awards box awards-box award-bullets">
+            <h4 class="brown" >GRADUATE STUDENT SCHOLARSHIP AWARD</h4>
+            <p class="black ">Received graduate student scholarship for spring-2016 from Texas A&M University-Commerce.</p>
+
+        </div>
+    </div>
+</a>
+</section>
+<!-------------------educatioon----------------->
+<section id="my-education"><a name="education">
+    <div class="container">
+        <div class="education">
+            <h3 class=" teal white-text aboutme">Education</h3>
+            <div class="education-box">
+                <div class="masters-box box">
+                    <img class="masters-image img-responsive" src="masters logo.gif">
+                    <h4 class="brown">Texas A&M Uinversity-Commerce</h4>
+                    <h5 class="black">Master of Science in Computer Science</h5>
+                    <h5 class="black">GPA : 3.61 </h5>
+                    <h5 class="black">Graduated : December2017</h5></div>
+                <div class="bachlers-box box">
+                    <img class="img-responsive masters-image "src="jntu-logo.png ">
+                    <h4 class="brown">JNTU-Anatapur, India</h4>
+                    <h5 class="black">Bachelor of Technology in Computer Science</h5>
+                    <h5 class="black">GPA : 3.5 </h5>
+                    <h5 class="black">Graduated : June2014</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+</section>
+<!-------------------------Contact section------------------>
+<section id="my-contact"><a name="contact">
+    <div class="container">
+        <div class="contact">
+            <h3 class=" teal white-text aboutme">Contact</h3>
+
+            <div class="my-contact">
+                <i class="fa fa-envelope contact-icon brown-circle "></i>
+
+
+                <a alt href="mailto:keerthivuggumudi@outlook.com" class="hoverline email-style ">keerthivuggumudi@outlook.com</h4>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+</a>
+</section>
+
+<!--------------------------------footer section-------------->
+<footer>
+    <div class="container">
+        <p class="footer">
+            <i>KeerthiVuggumudi Resume</i> , Copyright &copy;2018
+        </p>
+    </div>
+</footer>
+</body>
+</html>

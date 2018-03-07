@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+div.static {
+    position: static;
+    border: 3px solid #73AD21;
+}
+.abs{
+	position: absolute;
+    top:250px;
+    border: 1px solid green;
+}
+.fixed{
+	position: fixed;
+    top:250px;
+    border: 1px solid red;
+}
+.a{
+	height:100px;
+    border: 1px solid blue;
+}
+</style>
+</head>
+<body>
+
+<div class="a">
+    <p class="rel">An element with position: static; is not positioned in any special way; it is
+        always positioned according to the normal flow of the page:</p>
+</div>
+<div>
+    <div class="static">
+        This div element has position: static;
+    </div>
+    <div class="static" style="">
+        This div element has position: static;
+    </div>
+    <div class="abs">
+        This div element has position: abolsute;
+    </div>
+</div>
+<div class="fixed">
+blah
+</div>
+</body>
+</html>
